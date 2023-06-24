@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="SharedProjectFile_SccProperties">
+    <SharedProjectFile_ProjectGuid>{7ae8b1ef-66eb-47e2-a506-1c0464ec55b4}</SharedProjectFile_ProjectGuid>
+    <SharedProjectFile_SccProjectName>SAK</SharedProjectFile_SccProjectName>
+    <SharedProjectFile_SccAuxPath>SAK</SharedProjectFile_SccAuxPath>
+    <SharedProjectFile_SccLocalPath>SAK</SharedProjectFile_SccLocalPath>
+    <SharedProjectFile_SccProvider>SAK</SharedProjectFile_SccProvider>
+  </PropertyGroup>
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>e1ea3d77-88ba-45ec-8ff6-4d3ea96bb7d8</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Petrolimex</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Bean\BeanAttachFile.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Bean\BeanBanLanhDao.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Bean\BeanBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Bean\BeanCodeItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Bean\BeanControlDynamicDetail.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Bean\BeanCoQuanGui.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Bean\BeanDepartment.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Bean\BeanItemDeleted.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Bean\BeanLoaiDinhKem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Bean\BeanLoaiVanBan.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Bean\BeanLTDonVi.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Bean\BeanMyGroup.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Bean\BeanMyGroupTCT.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Bean\BeanNguoiKyVanBan.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Bean\BeanNotify.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Bean\BeanQuaTrinhLuanChuyenWorkflow.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Bean\BeanSearchProperty.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Bean\BeanSettings.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Bean\BeanLinhVuc.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Bean\BeanSoVanBanDen.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Bean\BeanSoVanBanDi.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Bean\BeanUnitGroup.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Bean\BeanUser.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Bean\BeanVanBan.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Bean\BeanVanBanBanHanh.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Bean\BeanVanBanDen.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Bean\BeanVanBanDi.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Bean\BeanYKien.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Bean\DBVariable.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Bean\DeviceInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Class\ClassActionTasks.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Class\CmmEnum.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Class\CmmEvent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Class\CmmFunction.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Class\CmmVariable.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Class\ConfigVariable.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Class\Crypter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataProvider\ProviderBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataProvider\ProviderControlDynamic.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataProvider\ProviderDoc.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataProvider\ProviderUser.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MyClass.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Bean\BeanTaskDocument.cs" />
+  </ItemGroup>
+</Project>
