@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Petrolimex.Wpf", "Petrolimex.Wpf\Petrolimex.Wpf.csproj", "{53383413-4988-4C78-BA6A-8A165015F98C}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Petrolimex", "Petrolimex\Petrolimex.shproj", "{E1EA3D77-88BA-45EC-8FF6-4D3EA96BB7D8}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupPetrolimexApp", "SetupPetrolimexApp\SetupPetrolimexApp.vdproj", "{E2C3AFE4-875C-40E1-B817-0593F7CBAD36}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Petrolimex\Petrolimex.projitems*{53383413-4988-4c78-ba6a-8a165015f98c}*SharedItemsImports = 4
+		Petrolimex\Petrolimex.projitems*{e1ea3d77-88ba-45ec-8ff6-4d3ea96bb7d8}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53383413-4988-4C78-BA6A-8A165015F98C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53383413-4988-4C78-BA6A-8A165015F98C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53383413-4988-4C78-BA6A-8A165015F98C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53383413-4988-4C78-BA6A-8A165015F98C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2C3AFE4-875C-40E1-B817-0593F7CBAD36}.Debug|Any CPU.ActiveCfg = Debug
+		{E2C3AFE4-875C-40E1-B817-0593F7CBAD36}.Debug|Any CPU.Build.0 = Debug
+		{E2C3AFE4-875C-40E1-B817-0593F7CBAD36}.Release|Any CPU.ActiveCfg = Release
+		{E2C3AFE4-875C-40E1-B817-0593F7CBAD36}.Release|Any CPU.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {36064064-9260-4FDB-9D10-F3B0F64FDCD2}
+	EndGlobalSection
+EndGlobal
